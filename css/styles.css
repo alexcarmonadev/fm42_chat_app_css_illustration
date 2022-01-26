@@ -528,7 +528,7 @@ body {
 
 /* ------------ANIMATIONS------------ */
 
-/* @-webkit-keyframes message-left {
+@-webkit-keyframes message-left {
   10% {
     opacity: 0;
     -webkit-transform: translateX(-3rem);
@@ -631,4 +631,4 @@ body {
 .fade:nth-child(7) {
   -webkit-animation: message-left 1s linear 5s forwards;
   animation: message-left 1s linear 5s forwards;
-} */
+}
