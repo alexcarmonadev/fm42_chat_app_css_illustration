@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | Chat app CSS illustration</title>
+    <script
+      src="https://kit.fontawesome.com/a447d8f9b0.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/images/favicon-32x32.png"
+    />
+    <meta
+      name="description"
+      content="Frontend Mentor Challenges are challenges to improve front-end coding skills by creating real projects."
+    />
+    <meta
+      name="keywords"
+      content="html, css, javascript, front-end, websites, frontendmentor"
+    />
+    <meta name="author" content="Alexcarmonadev" />
+  </head>
+  <body>
+    <main class="main">
+      <div class="card">
+        <div class="card__header">
+          <div class="card__header-arrow"></div>
+          <img
+            src="assets/images/avatar.jpg"
+            alt="Avatar image"
+            class="card__header-img"
+          />
+          <div class="card__header-texts">
+            <div class="card__header-iphone"></div>
+            <h2 class="card__header-title">Samuel Green</h2>
+            <p class="card__header-subtitle">Available to Walk</p>
+          </div>
+          <i class="fas fa-ellipsis-v"></i>
+        </div>
+
+        <div class="card__main">
+          <p class="message-left fade">
+            That sounds great. I'd be happy with that.
+          </p>
+          <p class="message-left fade">
+            Could you send over some pictures of your dog, please?
+          </p>
+
+          <div class="card__main-images fade">
+            <img
+              src="assets/images/dog-image-1.jpg"
+              alt="dog1"
+              class="card__main-img"
+            />
+            <img
+              src="assets/images/dog-image-2.jpg"
+              alt="dog2"
+              class="card__main-img"
+            />
+            <img
+              src="assets/images/dog-image-3.jpg"
+              alt="dog3"
+              class="card__main-img"
+            />
+          </div>
+
+          <div class="message-right-box fade">
+            <p class="message-right">
+              Here are a few pictures. She's a happy girl!
+            </p>
+            <p class="message-right message-right--short">Can you make it?</p>
+          </div>
+
+          <p class="message-left fade">
+            She looks so happy! The time we discussed works. How long shall I
+            take her out for?
+          </p>
+
+          <p class="card__main-price fade">
+            <span class="circle"><i class="far fa-circle"></i></span> 30 minute
+            walk <span class="number">$29</span>
+          </p>
+          <p class="card__main-price fade">
+            <span class="circle"><i class="far fa-circle"></i></span> 1 hour
+            walk
+            <span class="number number2">$49</span>
+          </p>
+        </div>
+        <form class="card__footer">
+          <label for="message"></label>
+          <input
+            id="message"
+            class="card__footer-input"
+            type="text"
+            name="message"
+            placeholder="Type a message..."
+          />
+          <div class="card__footer-arrow-right"></div>
+        </form>
+      </div>
+
+      <div class="main__texts">
+        <h1 class="main__title">Simple booking</h1>
+        <p class="main__text">
+          Stay in touch with our dog walkers through the chat interface. This
+          makes it easy to discuss arrangements and make bookings. Once the walk
+          has been completed you can rate your walker and book again all through
+          the chat.
+        </p>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/alexcarmonadev" target="_blank"
+          >Alexcarmonadev</a
+        >.
+      </div>
+    </footer>
+  </body>
+</html>
